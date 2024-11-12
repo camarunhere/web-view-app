@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Listings</title>
+    <link rel="stylesheet" href="view.css">
+</head>
+<body>
+    <div class="job-listings">
+        <div class="job-card" data-job-title="UI/UX Designer" data-company-name="Epic Coders" data-hourly-rate="$55/hr" data-job-type="hourly">
+            <div class="jc-header">
+                <button class="jc-header-hr-btn jc-btn">
+                    hourly
+                </button>
+                <span class="jc-header-rate">
+                    $55 / hr
+                </span>
+            </div>
+            <div class="jc-body">
+                <div class="jcb-heading">
+                    <h2 class="jcb-title">UI/UX Designer</h2>
+                    <div style="display: flex; align-items: center;">
+                        <img 
+                            src="assests/icons8-company-48.png" 
+                            alt="company logo"
+                            height="20"
+                            width="20"
+                        >
+                        <span class="jcb-company-name">Epic Coders</span>
+                    </div>
+                </div>
+                <div class="jcb-body">
+                    <div class="jcb-tech-stacks">
+                        <button class="jcb-tech-stack jc-btn">UI</button>
+                        <button class="jcb-tech-stack jc-btn">UX</button>
+                        <button class="jcb-tech-stack jc-btn">photoshop</button>
+                        <button class="jcb-tech-stack jc-btn jcb-tech-stack-active">+4</button>
+                    </div>
+
+                    <span class="jcb-desc">
+                        We are looking for an experience UI and UX designer to work on our new projects...
+                    </span>
+                </div>
+                <hr></hr>
+
+            </div>
+            <div class="jc-footer">
+                <span class="jc-view-job">
+                    <button class="view-job-btn">
+                        VIEW JOB
+                    </button>                
+                </span>
+            </div>
+        </div>
+
+        <div class="job-card" data-job-title="Branding Expert" data-company-name="Hubstaff" data-hourly-rate="$32/hr" data-job-type="part-time">
+            <div class="jc-header">
+                <button class="jc-header-part-time-btn jc-btn">
+                    part-time
+                </button>
+                <span class="jc-header-rate">
+                    $32 / hr
+                </span>
+            </div>
+            <div class="jc-body">
+                <div class="jcb-heading">
+                     <h2 class="jcb-title">Branding Expert</h2>
+                     <div style="display: flex; align-items: center;">
+                        <img 
+                            src="assests/icons8-company-48.png" 
+                            alt="company logo"
+                            height="20"
+                            width="20"
+                        >
+                        <span class="jcb-company-name">Hubstaff</span>
+                     </div>
+                </div>
+                <div class="jcb-body">
+                    <div class="jcb-tech-stacks">
+                        <button class="jcb-tech-stack jc-btn">PHP</button>
+                        <button class="jcb-tech-stack jc-btn">android</button>
+                        <button class="jcb-tech-stack jc-btn">iOS</button>
+                        <button class="jcb-tech-stack jc-btn jcb-tech-stack-active">+2</button>
+                    </div>
+                    <span class="jcb-desc">
+                        Looking for an experienced person to help us with rebranding our business. We are interested in a...
+                    </span>
+                </div>
+
+                <hr></hr>
+
+            </div>
+            <div>
+            <div class="jc-footer">
+                <span class="jc-view-job">
+                    <button class="view-job-btn">
+                        VIEW JOB
+                    </button>
+                </span>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="viewScript.js"></script>
+</body>
+</html>

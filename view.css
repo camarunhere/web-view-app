@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.job-listings {
+    display: flex;
+    gap: 20px;
+}
+
+.job-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 360px;
+    height: 380px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+}
+
+.job-title {
+    font-size: 24px;
+    margin: 0 0 10px;
+}
+
+.jc-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.jc-btn {
+    height: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 15px;
+    border: none;
+    font-size: medium;
+}
+
+.jc-header-hr-btn {
+    width: auto;
+    background: #4ad685;
+    color: white;
+}
+
+.jc-header-part-time-btn {
+    width: auto;
+    background: #ffb742;
+    color: white;
+}
+
+.jc-header-rate {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.jc-body {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.jcb-heading {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    margin: 0px;
+}
+
+.jcb-company-name {
+    color: #3770dc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    padding-left: 6px;
+}
+
+.jcb-body {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.jcb-tech-stacks {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.jcb-tech-stack {
+    border: solid 1px #9f9191;
+    background-color: white;
+    height: 35px;
+    border-radius: 20px;
+}
+
+.jcb-tech-stack-active {
+    color: white;
+    background-color: #459bfd;
+    border: none;
+    box-shadow: 0 4px 8px rgb(98 70 70 / 59%);
+}
+
+.jcb-desc {
+    text-align: center;
+    line-height: 1.5;
+}
+
+hr {
+    border: solid 1px;
+    width: 100px;
+    opacity: 0.1;
+}
+
+.jc-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.view-job-btn {
+    all: unset;
+    font-size: medium;
+    font-weight: 600;
+    cursor: pointer;
+}
